@@ -1,0 +1,20 @@
+{
+  "name": "TVstreaming",
+  "short_name": "TVstreaming",
+  "start_url": "/tvstreaming/",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#8a7322",
+  "icons": [
+    {
+      "src": "https://lh3.googleusercontent.com/d/1pB88ubjKqFMqRVzHP5vWCDpxhVOrDRYh?.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://lh3.googleusercontent.com/d/1pB88ubjKqFMqRVzHP5vWCDpxhVOrDRYh?.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
