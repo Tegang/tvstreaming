@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>TVstreaming</title>
 
-  <!-- Web App Manifest för PWA (Tvingar bort adressfältet vid "Lägg till på startskärmen") -->
-  <link rel="manifest" href='data:application/json,{"name":"TVstreaming","short_name":"TVstreaming","start_url":".","display":"standalone","background_color":"#121212","theme_color":"#8a7322"}'>
+  <!-- Länk till den riktiga manifest-filen -->
+  <link rel="manifest" href="manifest.json">
 
-  <!-- PWA Meta-taggar för iOS & Android -->
+  <!-- PWA Meta-taggar -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -36,8 +36,7 @@
 </head>
 <body>
 
-  <!-- OBS: Byt ut länken i src nedan mot din Apps Script URL som slutar på /exec -->
-  <iframe src="https://script.google.com/macros/s/AKfycbyUz8ki4Fk1DFCQIKqIBAvxOBfzLMqJVomxfkc1PScijWzPNxXeWwx6sj58Xyd1dGCP/exec"></iframe>
+  <iframe src="https://script.google.com/macros/s/AKfycb.../exec"></iframe>
 
 </body>
 </html>
